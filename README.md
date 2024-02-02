@@ -1,5 +1,6 @@
 # CURRENCY COMPARATOR BASES IN EURO'S CUANTITIES
 #### Description:
+
 Hi there. I am Andrés Suárez, the developer behind this proyect. Short presentation: I am 23 years old and come from Bogotá, Colombia.
 So, my project is a currency comparator that works with an API request. The API link is [this.](https://exchangeratesapi.io/) Is called _exchangerates_ and once I request info from it using the requests library, it gives to me a json object, that my code can read as a dict object.
 
