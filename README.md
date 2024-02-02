@@ -1,8 +1,7 @@
 # CURRENCY COMPARATOR BASES IN EURO'S CUANTITIES
-#### Video Demo:  <https://youtu.be/42VuRFUhF40>
 #### Description:
 Hi there. I am Andrés Suárez, the developer behind this proyect. Short presentation: I am 23 years old and come from Bogotá, Colombia.
-So, my proyect is a currency comparator that works with an API request. The API link is [this.](https://exchangeratesapi.io/) Is called _exchangerates_ and once I request info from it using the requests library, it gives to me a json object, that my code can read as a dict object.
+So, my project is a currency comparator that works with an API request. The API link is [this.](https://exchangeratesapi.io/) Is called _exchangerates_ and once I request info from it using the requests library, it gives to me a json object, that my code can read as a dict object.
 
 Allow me to list the operating order of mi code as follows:
 1. The code will prompt the user for a date in YYYY-MM-DD format and after the user writes it, is going to check the format with the `check_format()` funtion. this is because the comparison of the currencies depends on the day the user wants, and this date is an important part of the URL that the code will use for the request.
