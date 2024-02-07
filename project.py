@@ -14,7 +14,7 @@ def main():
                 sys.exit("Invalid currency")
             else:
                 if curr=="USD":
-                    print(f"{euro_to_dollar(int(money),entry)} dollars")
+                    print(f"{euro_to_dollar(int(money),entry)} units od the specified currency")
                 else:
                     print(f"{euro_to_other_currency(int(money),curr,entry)} units of the especified currency")
         else:
@@ -23,7 +23,7 @@ def main():
 
 def check_format(s,format):
     valid=("CAD","HKD","ISK","PHP","DKK","HUF","CZK","AUD","RON","SEK","IDR","INR","BRL","RUB","HRK","JPY",
-           "THB","CHF","SGD","PLN","BGN","TRY","CNY","NOK","NZD","ZAR","USD","MXN","ILS","GBP","KRW","MYR")
+            "THB","CHF","SGD","PLN","BGN","TRY","CNY","NOK","NZD","ZAR","USD","MXN","ILS","GBP","KRW","MYR")
     if format=="date":
         if inp := re.search(r"(\d{4})-(\d{2})-(\d{2})",s):
             if int(inp.group(1))<=2023 and 1<=int(inp.group(2))<=12 and 1<=int(inp.group(3))<=31:

@@ -1,4 +1,4 @@
-import proyect as p
+import project as p
 
 def test_check_format_date():
     assert p.check_format("2020-01-01","date")=="2020-01-01"
